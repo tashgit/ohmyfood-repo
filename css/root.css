@@ -1,0 +1,31 @@
+:root {
+    --primary-color:#9356DC;
+    --secondary-color: #FF79DA;
+    --tertiary-color: #99E2D0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    max-height: auto;
+    padding: 0px 50px; /* top/bottom 0, sides 50 */
+}
+
+main {
+    display: flex;
+  }
+
+h1 {
+    font-family: 'Shrikhand', serif;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
