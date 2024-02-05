@@ -4,28 +4,63 @@
     --tertiary-color: #99E2D0;
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
+    /*font-family: 'Shrikhand', serif;*/
     display: flex;
     flex-direction: column;
     max-width: 1440px;
+    min-width: 375px;
     max-height: auto;
-    padding: 0px 50px; /* top/bottom 0, sides 50 */
+    padding: 0px 50px 58px 50px; /* top/bottom 0, sides 50 */
+    gap: 35px; /* how is this distributed? when removed, all gaps removed */
 }
 
 main {
     display: flex;
   }
-
+/* desktop size*/
 h1 {
-    font-family: 'Shrikhand', serif;
-    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+    align-items: center;
 }
 
 h2 {
-    font-size: 18px;
+/*same as mobile view*/
 }
 
 h3 {
-    font-size: 16px;
+/*same as mobile view*/
+}
+
+/* mobile size*/
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13;
+    align-items: center;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #353535;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    align-items: center;
+}
+/*main section headings*/
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    align-items: center;
 }

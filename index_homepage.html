@@ -5,79 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- for @media/sizing -->
     <title>Ohmyfood</title>
-<!-- font, Roboto -->
+    <!-- font 1, Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- link for optimisation -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- link for optimisation -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<!-- font, Shrikhand -->
+    <!-- font 2, Shrikhand -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
-<!-- web page style sheets -->
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/media.css">
-    <link rel="stylesheet" href="./css/normalise.css">
-    <link rel="stylesheet" href="./css/root.css">
+    <!-- font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://kit.fontawesome.com/24c252cfa7.js" crossorigin="anonymous"></script>
+    <!-- web page style sheets -->
+    <link rel="stylesheet" href="./assets_css_images/footer.css">
+    <link rel="stylesheet" href="./assets_css_images/header.css">
+    <link rel="stylesheet" href="./assets_css_images/main.css">
+    <link rel="stylesheet" href="./assets_css_images/media.css">
+    <link rel="stylesheet" href="./assets_css_images/normalise.css">
+    <link rel="stylesheet" href="./assets_css_images/root.css">
     <!-- call to action -->
-    
+
 </head>
 
 <body>
     <!-- START/HEADER section -->
-    <header> <!-- 1 section -->
+    <header>
         <!-- logo-icon -->
         <div class="logo-icon">
-            <img src="images/logo/Booki.png" height="19" alt="booki-logo" title="booki-logo">
+            <img src="assets_css_images/images/logo/ohmyfood.png" alt="ohmyfood-logo" title="ohmyfood-logo">
         </div>
-
+        <!--btn link to map-->
+        <button class="locationbtn"><i class="fa-solid fa-location-dot"></i>Islington, London</button>
     </header>
     <!-- END/HEADER section -->
 
     <!-- START/MAIN section -->
-    <main> <!-- min 3 sections -->
-        <!-- start/about section -->
-        <section class="about-container">
-            <h2>About</h2>
-
-            <!-- content/here -->
-
+    <main>
+        <!-- Hero section -->
+        <section class="Hero">
+            <h1>Book the meal you want</h1>
+            <h2>Discover our carefully selected high-end restaurants</h2>
+            <button class="Explore">Explore our restaurants</button>
         </section>
-        <!-- end/about section -->
-    <!-- -->
-        <!-- start/folio section -->
-        <section class="folio-container">
-            <h2>Folio</h2>
-
-            <!-- content/here -->
-
+        <!-- end/hero section -->
+        <!-- -->
+        <!-- how it works? section -->
+        <section class="how?">
+            <h3>how it works</h3>
+            <button class="choose"><i class="fa-solid fa-mobile-screen-button"></i>Choose a restaurant</button>
+            <button class="build"><i class="fa-solid fa-list-ul"></i>Build your meal</button>
+            <button class="enjoy"><i class="fa-solid fa-store"></i>Enjoy your meal at the restaurant</button>
         </section>
-        <!-- end/folio section -->
-    <!-- -->
-        <!-- start/contact section -->
-        <section class="contact-container">
-            <h2>Contact</h2>
-
-            <!-- content/here -->
-
+        <!-- end/how it works? section -->
+        <!-- -->
+        <!-- restaurants section -->
+        <section class="restaurants">
+            <h3>restaurants</h3>
         </section>
-        <!-- end/contact section -->
-    <!-- -->
+        <!-- end/restaurants section -->
     </main>
     <!-- END/MAIN section -->
 
     <!-- START/FOOTER section -->
-    <footer> <!-- 1 section -->
-        <!-- footer section -->
-        <section class="footer-container">
-            <h2>Footer title</h2>
-
-            <!-- content/here -->
-
-        </section>
+    <footer>
+        <div class="logo-icon">
+            <img src="assets_css_images/images/logo/ohmyfood.png" alt="ohmyfood-logo" title="ohmyfood-logo">
+        </div>
+        <nav>
+            <ul>
+                <li><i class="fa-solid fa-utensils"></i><a href="#">Suggest a restaurant</a></li>
+                <li><i class="fa-solid fa-handshake-angle"></i><a href="#">Become a partner</a></li>
+                <li><a href="#">Legal notice</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </footer>
-        <!-- END/FOOTER section -->
+    <!-- END/FOOTER section -->
 </body>
 
 </html>
