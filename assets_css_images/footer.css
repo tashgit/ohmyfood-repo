@@ -1,0 +1,26 @@
+footer {
+    background-color: #353535;
+    color: white;
+    margin: 0;
+}
+
+.logo-icon {
+    width: 139px;
+    height: 27px;
+    filter: invert(100%);
+    padding: 10px;
+}
+
+.footer-contain { 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column; 
+}
+
+.footer-li-1 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    list-style-type: none; /* removes bullet points */
+}

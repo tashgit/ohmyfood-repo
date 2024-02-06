@@ -12,25 +12,12 @@
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
- 
-  /* Sections
-     ========================================================================== */
-  
-  /**
-   * Remove the margin in all browsers.
-   */
-  
-  body {
-    margin: 0; /* centers page, left:auto, right:auto */
-    box-sizing: border-box;
-  }
   
   /**
    * Render the `main` element consistently in IE.
    */
   
-
-  
+   
   /**
    * Correct the font size and margin on `h1` elements within `section` and
    * `article` contexts in Chrome, Firefox, and Safari.
